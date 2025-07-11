@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="description" content="Contact Us Form">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <title>Contact Us Form | Week 3</title>
+    </head>
+    <body>
+        <div class="container">
+            <form id="contactForm" onsubmit="validateDetails(event)">
+                <h1>Contact Us Form</h1>
+                <div class="details-filled">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your name" id="namevalue">
+                    <span id="name-req"></span>
+                </div>
+
+                <div class="details-filled">
+                    <label>Email Id</label>
+                    <input type="email" placeholder="Enter Email" id="mailvalue">
+                    <span id="email-req"></span>
+                </div>
+
+                <div class="details-filled">
+                    <label>Subject</label>
+                    <input type="text" placeholder="Subject" id="subvalue">
+                    <span id="sub-req"></span>
+                </div>
+
+                <div class="details-filled">
+                    <label>Your Message</label>
+                    <textarea rows="4" placeholder="Enter your message" id="msgvalue"></textarea>
+                    <span id="message-req"></span>
+                </div>
+
+                <button type="submit">Submit</button>
+                <span id="submit-req">! Please Fill the Form Completely</span>
+            </form>
+        </div>
+    </body>
+    <script src="/script.js"></script>
+</html>
