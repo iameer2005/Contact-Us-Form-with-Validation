@@ -4,10 +4,10 @@ This project is a basic Contact Us web form made using HTML, CSS, and JavaScript
 
 The form includes validation using JavaScript:
 
-It checks that all fields are filled.
+- It checks that all fields are filled.
 
-It makes sure the email is in the correct format.
+- It makes sure the email is in the correct format.
 
-It shows error messages if something is missing or wrong.
+- It shows error messages if something is missing or wrong.
 
-If everything is correct, it shows a thank-you message and clears the form.
+- If everything is correct, it shows a thank-you message and clears the form.
